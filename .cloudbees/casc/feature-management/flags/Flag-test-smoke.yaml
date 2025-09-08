@@ -4,8 +4,8 @@ kind: flag
 
 flag: Flag-test-smoke
 flagType: boolean
-description: Boolean-test
-labels:
+description: Boolean-test-update
+labels: Smoke
 
 availableValues:
   - true
