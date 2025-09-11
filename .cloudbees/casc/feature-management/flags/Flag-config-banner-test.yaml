@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-test-smoke
+flag: Flag-config-banner-test
 flagType: boolean
-description: Boolean-test
+description: banner-test
 labels:
 
 availableValues:
