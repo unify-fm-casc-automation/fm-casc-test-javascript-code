@@ -2,13 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-test-smoke
-flagType: boolean
-description: Boolean-test
+flag: Flag-Number-test
+flagType: number
+description: 
 labels:
 
 availableValues:
-  - true
-  - false
+  - 2
+  - 4
 
 isPermanent: false

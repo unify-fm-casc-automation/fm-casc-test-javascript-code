@@ -2,13 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-config-banner-test
-flagType: boolean
-description: banner-test
+flag: Flag string
+flagType: string
+description: String 
 labels:
 
 availableValues:
-  - true
-  - false
+  - v2
 
 isPermanent: false

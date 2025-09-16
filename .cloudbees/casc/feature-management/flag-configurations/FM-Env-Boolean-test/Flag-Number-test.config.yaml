@@ -2,16 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: Flag-config-banner-test
+flag: Flag-Number-test
 
 enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  - percentage: 55
-    option: true
-  - percentage: 45
-    option: false
+defaultValue: 4
 
 conditions: []
