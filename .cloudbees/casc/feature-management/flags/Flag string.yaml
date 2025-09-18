@@ -4,7 +4,7 @@ kind: flag
 
 flag: Flag string
 flagType: string
-description: String 
+description: String
 labels:
 
 availableValues:
