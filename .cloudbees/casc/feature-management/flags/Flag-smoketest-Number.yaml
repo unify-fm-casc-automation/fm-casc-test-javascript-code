@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: Flag-smoketest-Number
+flagType: number
+description: 
+labels:
+
+availableValues:
+  - 2
+
+isPermanent: false
