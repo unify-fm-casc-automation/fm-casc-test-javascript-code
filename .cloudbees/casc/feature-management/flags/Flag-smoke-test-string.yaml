@@ -8,5 +8,7 @@ description:
 labels:
 
 availableValues:
+  - two
+  - three
 
 isPermanent: false
