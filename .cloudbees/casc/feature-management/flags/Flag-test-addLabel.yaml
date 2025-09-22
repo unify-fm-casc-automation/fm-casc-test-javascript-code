@@ -2,11 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-deployment-validation
+flag: Flag-test-addLabel
 flagType: boolean
 description: 
 labels:
+  - label-1
 
 availableValues:
+  - true
+  - false
 
 isPermanent: false

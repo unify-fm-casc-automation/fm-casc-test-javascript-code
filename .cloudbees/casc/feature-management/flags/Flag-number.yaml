@@ -2,13 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-smoke-test-string
-flagType: string
+flag: Flag-number
+flagType: number
 description: 
 labels:
+  - QA-test
 
 availableValues:
-  - two
-  - three
+  - 1
+  - 2
 
 isPermanent: false
