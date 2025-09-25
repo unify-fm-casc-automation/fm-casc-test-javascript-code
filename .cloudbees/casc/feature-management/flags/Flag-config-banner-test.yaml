@@ -2,11 +2,10 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Flag-test-addLabel
+flag: Flag-config-banner-test
 flagType: boolean
-description: 
+description: banner-test
 labels:
-  - label-1
 
 availableValues:
   - true

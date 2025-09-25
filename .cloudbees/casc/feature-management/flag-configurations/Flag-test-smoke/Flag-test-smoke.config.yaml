@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: Flag-test-addLabel
+flag: Flag-test-smoke
 
 enabled: false
 
@@ -11,9 +11,4 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions:
-  - allOf:
-      - property:
-          name: Prop-1
-          operator: is-false
-    flagValue: false
+conditions: []
