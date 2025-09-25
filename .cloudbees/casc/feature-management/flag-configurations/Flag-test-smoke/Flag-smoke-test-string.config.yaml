@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: Flag-smoke-test-string
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: three
+
+conditions: []
